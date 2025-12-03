@@ -14,7 +14,7 @@ struct FHavokNavNavMeshGenerationInput;
  * @brief 特定のアクターからNavMesh生成のための入力ジオメトリを収集するクラス
  */
 UCLASS()
-class PPHKNAVRUNTIMEGEN_API UPPHkNav_ActorInputEntityGatherer : public UObject, public IHavokNavNavMeshGenerationInputEntityGatherer
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNav_ActorInputEntityGatherer : public UObject, public IHavokNavNavMeshGenerationInputEntityGatherer
 {
     GENERATED_BODY()
 

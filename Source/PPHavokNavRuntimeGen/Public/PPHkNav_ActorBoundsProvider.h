@@ -16,7 +16,7 @@ class UHavokNavNavMeshLayer;
  *  そのため、TargetActorと他のオブジェクトの重なりも考慮しない
  */
 UCLASS()
-class PPHKNAVRUNTIMEGEN_API UPPHkNav_ActorBoundsProvider : public UObject, public IHavokNavNavMeshGenerationBoundsProvider
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNav_ActorBoundsProvider : public UObject, public IHavokNavNavMeshGenerationBoundsProvider
 {
     GENERATED_BODY()
 

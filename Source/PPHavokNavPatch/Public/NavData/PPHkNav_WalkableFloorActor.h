@@ -17,7 +17,7 @@ class UHavokNavClusterGraph;
  * BP_WalkableFloor の C++ ベース
  */
 UCLASS(Blueprintable)
-class PPHKNAVPATCH_API APPHkNav_WalkableFloorActor : public AActor
+class PPHAVOKNAVPATCH_API APPHkNav_WalkableFloorActor : public AActor
 {
 	GENERATED_BODY()
 

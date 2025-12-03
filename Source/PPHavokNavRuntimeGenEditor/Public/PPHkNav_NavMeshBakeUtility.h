@@ -4,9 +4,10 @@
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
 #include "PPHkNavHavokNavMeshGeneratorFactory.h"
-#include "PPHkNavNavMeshUserEdgeSocket.h"
+//#include "PPHkNavNavMeshUserEdgeSocket.h"
 #include "PPHkNav_NavMeshBakeUtility.generated.h"
 
+struct FPPHkNavBakedNavMeshUserEdgeSocket;
 class UBlueprint;
 class UHavokNavNavMesh;
 class UHavokNavNavMeshGenerationSettings;
@@ -18,7 +19,7 @@ class UPPHkNavNavMeshUserEdgeSocketAuthoringComponent; // フォワード
  * Blueprint / Actor 選択対象から NavMesh を事前ベイクし DataAsset 化するエディタユーティリティ
  */
 UCLASS(BlueprintType)
-class PPHKNAVRUNTIMEGENEDITOR_API UPPHkNav_NavMeshBakeUtility : public UObject
+class PPHAVOKNAVRUNTIMEGENEDITOR_API UPPHkNav_NavMeshBakeUtility : public UObject
 {
     GENERATED_BODY()
 

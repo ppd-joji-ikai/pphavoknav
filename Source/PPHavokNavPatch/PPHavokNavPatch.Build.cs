@@ -13,6 +13,7 @@ public class PPHavokNavPatch : ModuleRules
 			new string[]
 			{
 				"Core",
+				"CoreUObject",
 				"GameplayTags",
 				"HavokCore",
 				"HavokNavigation",
@@ -35,6 +36,7 @@ public class PPHavokNavPatch : ModuleRules
 		PublicIncludePaths.AddRange(new string[]
 		{
 			Path.Combine(ModuleDirectory, "Public", "Components"),
+			Path.Combine(ModuleDirectory, "Public", "CustomData"),
 			Path.Combine(ModuleDirectory, "Public", "NavData"),
 			Path.Combine(ModuleDirectory, "Public", "NavMesh"),
 			Path.Combine(ModuleDirectory, "Public", "UserEdges"),

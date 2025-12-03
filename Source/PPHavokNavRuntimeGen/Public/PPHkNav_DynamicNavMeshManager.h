@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Pocketpair, Inc. All Rights Reserved.
+// Copyright Pocketpair, Inc. All Rights Reserved.
 
 #pragma once
 
@@ -12,7 +12,7 @@ class UPPHkNav_RuntimeGenerationSubsystem;
  * @brief 動的NavMesh管理オブジェクト
  */
 UCLASS()
-class PPHKNAVRUNTIMEGEN_API UPPHkNav_DynamicNavMeshManager : public UObject, public IPPHkNavDynamicNavMeshGenerator
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNav_DynamicNavMeshManager : public UObject, public IPPHkNavDynamicNavMeshGenerator
 {
 	GENERATED_BODY()
 

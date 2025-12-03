@@ -12,7 +12,7 @@
  * 特に実装もデータも持たない
  */
 UCLASS()
-class PPHKNAVPATCH_API UPPHkNavMeshInstanceBase : public UHavokNavNavMeshInstance
+class PPHAVOKNAVPATCH_API UPPHkNavMeshInstanceBase : public UHavokNavNavMeshInstance
 {
 	GENERATED_BODY()
 };
@@ -21,7 +21,7 @@ class PPHKNAVPATCH_API UPPHkNavMeshInstanceBase : public UHavokNavNavMeshInstanc
  * Patch NavMeshInstanceクラス
  */
 UCLASS()
-class PPHKNAVPATCH_API UPPHkNavPatchNavMeshInstance : public UPPHkNavMeshInstanceBase, public IPPHkNavMeshInstanceRoleInterface
+class PPHAVOKNAVPATCH_API UPPHkNavPatchNavMeshInstance : public UPPHkNavMeshInstanceBase, public IPPHkNavMeshInstanceRoleInterface
 {
 	GENERATED_BODY()
 

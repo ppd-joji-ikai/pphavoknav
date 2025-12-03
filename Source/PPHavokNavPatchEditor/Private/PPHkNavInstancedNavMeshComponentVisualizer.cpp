@@ -3,7 +3,7 @@
 
 #include "../../HavokNavigation/Private/HavokNavIncludes.h"
 #include "HavokNavNavMesh.h"
-#include "PPHkNavPatch_CustomDataNavMeshLayer.h"
+#include "CustomData/PPHkNavPatchCustomDataNavMeshLayer.h"
 #include "PPHkNav_NavMeshDataAsset.h"
 #include "SceneManagement.h"
 #include "Components/PPHkNavInstancedNavMeshComponent.h"
@@ -152,8 +152,8 @@ void FPPHkNavInstancedNavMeshComponentVisualizer::DrawVisualization(const UActor
 	}
 
 	// 描画カラー (固定)
-	const FLinearColor FillColor = UPPHkNavPatch_CustomDataNavMeshLayer::GetFaceDisplayColorStatic();
-	const FLinearColor WireColor = UPPHkNavPatch_CustomDataNavMeshLayer::GetEdgeDisplayColorStatic();
+	const FLinearColor FillColor = UPPHkNavPatchCustomDataNavMeshLayer::GetFaceDisplayColorStatic();
+	const FLinearColor WireColor = UPPHkNavPatchCustomDataNavMeshLayer::GetEdgeDisplayColorStatic();
 	const FTransform WorldXf = Comp->GetComponentTransform();
 
 	// 塗りつぶし (三角ごと) - 透明度低

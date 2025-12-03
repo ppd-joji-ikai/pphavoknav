@@ -1,4 +1,4 @@
-// Copyright (c) 2025 Pocketpair, Inc. All Rights Reserved.
+// Copyright Pocketpair, Inc. All Rights Reserved.
 #pragma once
 
 #include "CoreMinimal.h"
@@ -39,7 +39,7 @@ struct FPPHkNavPatchEntry
  * Havok Navigation 本体コードへ改造を加えず、必要最低限のロード/接続処理のみ実装。
  */
 UCLASS(ClassGroup=(PPHkNav), meta=(BlueprintSpawnableComponent), BlueprintType)
-class PPHKNAVPATCH_API UPPHkNavNavMeshMultiPatchComponent : public USceneComponent
+class PPHAVOKNAVPATCH_API UPPHkNavNavMeshMultiPatchComponent : public USceneComponent
 {
 	GENERATED_BODY()
 public:

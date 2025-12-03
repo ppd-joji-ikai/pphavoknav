@@ -38,7 +38,8 @@ public class PPHavokNavRuntimeGenEditor : ModuleRules
 				"ToolMenus",
 				"AssetRegistry",
 				
-				"PPHavokNavRuntimeGen", 
+				"PPHavokNavPatch", 
+				"PPHavokNavRuntimeGen",
 			}
 		);
 	}

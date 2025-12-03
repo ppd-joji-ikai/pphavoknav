@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Pocketpair, Inc. All Rights Reserved.
+// Copyright Pocketpair, Inc. All Rights Reserved.
 
 #pragma once
 
@@ -20,7 +20,7 @@ namespace Chaos
  * @brief Provides geometry from a Chaos FPhysicsObjectHandle for Havok NavMesh generation.
  * This class is suitable for generating NavMesh based on the collision geometry of a physics object.
  */
-class PPHKNAVRUNTIMEGEN_API FPPHkNav_ChaosGeometryProvider final : public FHavokNavChaosGeometryProvider
+class PPHAVOKNAVRUNTIMEGEN_API FPPHkNav_ChaosGeometryProvider final : public FHavokNavChaosGeometryProvider
 {
 public:
 	using Super = FHavokNavChaosGeometryProvider;

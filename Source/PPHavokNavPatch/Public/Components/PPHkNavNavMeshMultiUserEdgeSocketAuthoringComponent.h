@@ -15,7 +15,7 @@
  * @note: Actor側で保持する場合は WITH_EDITORONLY_DATA でくくること
  */
 UCLASS(ClassGroup=(PPHkNav), meta=(BlueprintSpawnableComponent, DisplayName="PPHkNav NavMesh Multi UserEdge Sockets Authoring Component"))
-class PPHKNAVPATCH_API UPPHkNavNavMeshMultiUserEdgeSocketAuthoringComponent_EditorOnly : public USceneComponent
+class PPHAVOKNAVPATCH_API UPPHkNavNavMeshMultiUserEdgeSocketAuthoringComponent_EditorOnly : public USceneComponent
 {
     GENERATED_BODY()
 public:

@@ -28,13 +28,14 @@ public class PPHavokNavRuntimeGen : ModuleRules
 				"HavokCore",
 				"HavokNavigation",
 				"HavokNavigationGenerationCore",
-				"HavokNavigationGeneration",
+				"HavokNavigationGeneration", 
+				
+				"PPHavokNavPatch",
 			}
 		);
 
 		PublicIncludePaths.AddRange(new string[]
 		{
-			Path.Combine(ModuleDirectory, "Public", "Components"),
 			Path.Combine(ModuleDirectory, "Public", "GeometryProvider"),
 		});
 

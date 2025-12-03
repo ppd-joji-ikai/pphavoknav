@@ -19,7 +19,7 @@ class UPPHkNav_QueuedRequest : public UInterface
  * @brief ナビゲーション生成リクエストの共通インターフェース
  * NavMeshとNavVolumeの両方のリクエストを統一的に処理するためのインターフェース
  */
-class PPHKNAVRUNTIMEGEN_API IPPHkNav_QueuedRequest
+class PPHAVOKNAVRUNTIMEGEN_API IPPHkNav_QueuedRequest
 {
 	GENERATED_BODY()
 

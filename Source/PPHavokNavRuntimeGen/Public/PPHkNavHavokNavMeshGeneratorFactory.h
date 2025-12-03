@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Pocketpair, Inc. All Rights Reserved.
+// Copyright Pocketpair, Inc. All Rights Reserved.
 
 #pragma once
 
@@ -26,7 +26,7 @@ class UWorld;
  * This struct consolidates all inputs required for a generation task.
  */
 USTRUCT(BlueprintType)
-struct PPHKNAVRUNTIMEGEN_API FPPHkNavMeshGenerationParams
+struct PPHAVOKNAVRUNTIMEGEN_API FPPHkNavMeshGenerationParams
 {
 	GENERATED_BODY()
 
@@ -81,7 +81,7 @@ struct PPHKNAVRUNTIMEGEN_API FPPHkNavMeshGenerationParams
  * based on the provided parameters.
  */
 UCLASS()
-class PPHKNAVRUNTIMEGEN_API UPPHkNavHavokNavMeshGeneratorFactory : public UObject
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNavHavokNavMeshGeneratorFactory : public UObject
 {
 	GENERATED_BODY()
 

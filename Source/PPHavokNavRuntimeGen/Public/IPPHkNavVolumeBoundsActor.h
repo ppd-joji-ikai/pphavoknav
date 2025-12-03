@@ -19,7 +19,7 @@ class UPPHkNavVolumeBoundsActor : public UInterface
  * AVolume や AActor から派生したアクターのナビゲーションボリューム境界を定義するためのインターフェースです
  * NavVolumeの生成範囲を決定するアクターが実装してください
  */
-class PPHKNAVRUNTIMEGEN_API IPPHkNavVolumeBoundsActor
+class PPHAVOKNAVRUNTIMEGEN_API IPPHkNavVolumeBoundsActor
 {
 	GENERATED_BODY()
 

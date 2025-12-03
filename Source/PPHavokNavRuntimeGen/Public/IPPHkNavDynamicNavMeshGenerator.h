@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Pocketpair, Inc. All Rights Reserved.
+// Copyright Pocketpair, Inc. All Rights Reserved.
 
 #pragma once
 
@@ -18,7 +18,7 @@ class UHavokNavNavVolumeLayer;
  * @brief ActorNavMesh生成リクエストのためのパラメータを格納する構造体
  */
 USTRUCT(BlueprintType)
-struct PPHKNAVRUNTIMEGEN_API FPPHkNavActorNavMeshGenerationParams
+struct PPHAVOKNAVRUNTIMEGEN_API FPPHkNavActorNavMeshGenerationParams
 {
 	GENERATED_BODY()
 
@@ -46,7 +46,7 @@ struct PPHKNAVRUNTIMEGEN_API FPPHkNavActorNavMeshGenerationParams
  * @brief BoxNavMesh生成リクエストのためのパラメータを格納する構造体
  */
 USTRUCT(BlueprintType)
-struct PPHKNAVRUNTIMEGEN_API FPPHkNavBoxNavMeshGenerationParams
+struct PPHAVOKNAVRUNTIMEGEN_API FPPHkNavBoxNavMeshGenerationParams
 {
 	GENERATED_BODY()
 
@@ -86,7 +86,7 @@ struct PPHKNAVRUNTIMEGEN_API FPPHkNavBoxNavMeshGenerationParams
  * @brief BoxNavVolume生成リクエストのためのパラメータを格納する構造体
  */
 USTRUCT(BlueprintType)
-struct PPHKNAVRUNTIMEGEN_API FPPHkNavBoxNavVolumeGenerationParams
+struct PPHAVOKNAVRUNTIMEGEN_API FPPHkNavBoxNavVolumeGenerationParams
 {
 	GENERATED_BODY()
 
@@ -130,7 +130,7 @@ class UPPHkNavDynamicNavMeshGenerator : public UInterface
 /**
  * @brief 動的NavMeshジェネレーター
  */
-class PPHKNAVRUNTIMEGEN_API IPPHkNavDynamicNavMeshGenerator
+class PPHAVOKNAVRUNTIMEGEN_API IPPHkNavDynamicNavMeshGenerator
 {
 	GENERATED_BODY()
 

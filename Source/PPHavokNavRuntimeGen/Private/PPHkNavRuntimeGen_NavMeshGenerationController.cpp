@@ -4,7 +4,7 @@
 #include "PPHkNavRuntimeGen_NavMeshGenerationController.h"
 
 #include "HavokNavBlockingVolume.h"
-#include "CustomData/PPHkNavigation_CustomData.h"
+#include "CustomData/PPHkNavPatch_CustomData.h"
 
 /**
  * UPPHkNavRuntimeGen_NavMeshGenerationControllerBase
@@ -16,7 +16,7 @@ UScriptStruct* UPPHkNavRuntimeGen_NavMeshGenerationControllerBase::GetPhysicalOb
 
 UScriptStruct* UPPHkNavRuntimeGen_NavMeshGenerationControllerBase::GetFaceDataType() const
 {
-	return FPPHkNavigation_GroupIdFaceData::StaticStruct();
+	return FPPHkNavPatch_GroupIdFaceData::StaticStruct();
 }
 
 IHavokNavNavMeshGenerationController::FProcessPhysicalObjectResult UPPHkNavRuntimeGen_NavMeshGenerationControllerBase::

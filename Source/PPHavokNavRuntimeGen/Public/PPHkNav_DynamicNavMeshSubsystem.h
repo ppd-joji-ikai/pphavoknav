@@ -13,7 +13,7 @@ class UHavokNavNavMeshLayer;
  * 動的NavMesh生成を担うサブシステム
  */
 UCLASS()
-class PPHKNAVRUNTIMEGEN_API UPPHkNav_DynamicNavMeshSubsystem : public UWorldSubsystem
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNav_DynamicNavMeshSubsystem : public UWorldSubsystem
 {
 	GENERATED_BODY()
 

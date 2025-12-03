@@ -5,15 +5,15 @@
 
 #include "HavokNavChaosGeometryProvider.h"
 #include "HavokNavGeometryCollectionGeometryProvider.h"
-#include "PPHkNavRampNavMeshAuthoringComponent_EditorOnly.h"
-#include "PPHkNavTriangleNavMeshAuthoringComponent_EditorOnly.h"
-#include "PPHkNavPyramidNavMeshAuthoringComponent_EditorOnly.h"
+#include "Components/PPHkNavRampNavMeshAuthoringComponent_EditorOnly.h"
+#include "Components/PPHkNavTriangleNavMeshAuthoringComponent_EditorOnly.h"
+#include "Components/PPHkNavPyramidNavMeshAuthoringComponent_EditorOnly.h"
 #include "GeometryCollection/GeometryCollectionComponent.h"
 #include "PpCustom/HavokNavRampGeometryProvider.h"
 #include "PpCustom/HavokNavTriangleGeometryProvider.h"
 #include "PpCustom/HavokNavPyramidGeometryProvider.h"
 
-namespace MassPal::Navigation::Private
+namespace PPHkNav::Private
 {
 	struct FPrimitive
 	{
@@ -137,7 +137,7 @@ FHavokNavNavMeshGenerationInputEntitySet UPPHkNav_ActorInputEntityGatherer::Gath
 	// PrimitiveComponentsからジオメトリを収集
 	for (UPrimitiveComponent* PrimitiveComponent : PrimitiveComponents)
 	{
-		using namespace MassPal::Navigation::Private;
+		using namespace PPHkNav::Private;
 		const FPrimitive Prim {.PrimitiveComponent = PrimitiveComponent, .InstanceIndex = INDEX_NONE};
 		ProcessPrimitive( Prim, GenerationTransform, Controller, Result);
 	}

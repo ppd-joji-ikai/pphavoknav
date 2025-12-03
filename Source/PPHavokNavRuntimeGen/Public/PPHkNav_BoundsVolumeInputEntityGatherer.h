@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Pocketpair, Inc. All Rights Reserved.
+// Copyright Pocketpair, Inc. All Rights Reserved.
 
 #pragma once
 
@@ -17,7 +17,7 @@ struct FHavokNavNavVolumeUserEdgeStaticInformationSet;
  * ランタイムNavVolume生成に最適化されています
  */
 UCLASS()
-class PPHKNAVRUNTIMEGEN_API UPPHkNav_BoundsVolumeInputEntityGatherer : public UObject, public IHavokNavNavVolumeGenerationInputEntityGatherer
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNav_BoundsVolumeInputEntityGatherer : public UObject, public IHavokNavNavVolumeGenerationInputEntityGatherer
 {
     GENERATED_BODY()
 

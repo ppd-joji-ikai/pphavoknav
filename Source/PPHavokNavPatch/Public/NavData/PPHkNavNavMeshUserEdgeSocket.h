@@ -14,7 +14,7 @@ class UHavokNavNavMeshUserEdge;
  * Actor相対で保持しランタイムでワールド化してユーザーエッジ生成を試みる
  */
 USTRUCT()
-struct PPHKNAVPATCH_API FPPHkNavBakedNavMeshUserEdgeSocket
+struct PPHAVOKNAVPATCH_API FPPHkNavBakedNavMeshUserEdgeSocket
 {
 	GENERATED_BODY()
 

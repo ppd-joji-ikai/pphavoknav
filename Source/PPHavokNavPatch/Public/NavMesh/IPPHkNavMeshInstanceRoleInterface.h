@@ -19,7 +19,8 @@ enum class EPPHkNavMeshInstanceRole : uint8
 };
 
 UINTERFACE()
-class UPPHkNavMeshInstanceRoleInterface : public UInterface
+
+class PPHAVOKNAVPATCH_API UPPHkNavMeshInstanceRoleInterface : public UInterface
 {
 	GENERATED_BODY()
 };
@@ -27,7 +28,7 @@ class UPPHkNavMeshInstanceRoleInterface : public UInterface
 /**
  * NavMeshInstance 役割取得インターフェース
  */
-class PPHKNAVPATCH_API IPPHkNavMeshInstanceRoleInterface
+class PPHAVOKNAVPATCH_API IPPHkNavMeshInstanceRoleInterface
 {
 	GENERATED_BODY()
 

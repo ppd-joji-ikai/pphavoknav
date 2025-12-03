@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Pocketpair, Inc. All Rights Reserved.
+// Copyright Pocketpair, Inc. All Rights Reserved.
 
 #pragma once
 
@@ -15,7 +15,7 @@ class UHavokNavNavVolumeLayer;
  * 静的に定義されたボックスに基づいてNavVolumeを生成するのに適しています
  */
 UCLASS()
-class PPHKNAVRUNTIMEGEN_API UPPHkNav_BoxVolumeBoundsProvider : public UObject, public IHavokNavNavVolumeGenerationBoundsProvider
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNav_BoxVolumeBoundsProvider : public UObject, public IHavokNavNavVolumeGenerationBoundsProvider
 {
     GENERATED_BODY()
 

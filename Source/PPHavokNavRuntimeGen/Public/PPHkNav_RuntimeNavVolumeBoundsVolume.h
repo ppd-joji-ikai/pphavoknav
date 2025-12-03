@@ -18,7 +18,7 @@ struct FHavokNavNavVolumeGeneratorResult;
  * エディタでボリュームの形状を編集し、ランタイムで指定された範囲内のNavVolumeを生成します。
  */
 UCLASS(Blueprintable, hidecategories = (Advanced, Physics, Collision, Volume, Brush, Mover, Will, BlockAll, CanBeBaseForCharacter))
-class PPHKNAVRUNTIMEGEN_API APPHkNav_RuntimeNavVolumeBoundsVolume : public AVolume, public IPPHkNavVolumeBoundsActor
+class PPHAVOKNAVRUNTIMEGEN_API APPHkNav_RuntimeNavVolumeBoundsVolume : public AVolume, public IPPHkNavVolumeBoundsActor
 {
     GENERATED_BODY()
 

@@ -13,7 +13,7 @@ class UHavokNavNavMeshLayer;
  * エディタ用 NavMesh 事前ベイク既定値設定
  */
 UCLASS(Config=Editor, DefaultConfig, DisplayName="PPHkNav NavGen Editor")
-class PPHKNAVRUNTIMEGENEDITOR_API UPPHkNavRuntimeGenEditorSettings : public UDeveloperSettings
+class PPHAVOKNAVRUNTIMEGENEDITOR_API UPPHkNavRuntimeGenEditorSettings : public UDeveloperSettings
 {
 	GENERATED_BODY()
 

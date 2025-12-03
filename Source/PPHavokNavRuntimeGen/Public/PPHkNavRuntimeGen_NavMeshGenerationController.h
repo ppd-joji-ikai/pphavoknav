@@ -11,7 +11,7 @@
  * PPHkNav NavMesh生成コントローラーインターフェースのベースクラス
  */
 UCLASS(Abstract)
-class PPHKNAVRUNTIMEGEN_API UPPHkNavRuntimeGen_NavMeshGenerationControllerBase : public UObject, public IHavokNavNavMeshGenerationController
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNavRuntimeGen_NavMeshGenerationControllerBase : public UObject, public IHavokNavNavMeshGenerationController
 {
 	GENERATED_BODY()
 
@@ -30,7 +30,7 @@ public:
  * 主にレベルジオメトリをNavMeshに変換する用途を想定
  */
 UCLASS(DisplayName="PPHkNav NavMesh Generation Controller Simple")
-class PPHKNAVRUNTIMEGEN_API UPPHkNavRuntimeGen_NavMeshGenerationController : public UPPHkNavRuntimeGen_NavMeshGenerationControllerBase
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNavRuntimeGen_NavMeshGenerationController : public UPPHkNavRuntimeGen_NavMeshGenerationControllerBase
 {
 	GENERATED_BODY()
 
@@ -46,7 +46,7 @@ public:
  * それ以外のパラメータはみない. NoCollision推奨
  */
 UCLASS(DisplayName="PPHkNav NavMesh Generation Controller CanEverAffectNav")
-class PPHKNAVRUNTIMEGEN_API UPPHkNavRuntimeGen_NavMeshGenerationControllerCanEverAffectNav : public UPPHkNavRuntimeGen_NavMeshGenerationControllerBase
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNavRuntimeGen_NavMeshGenerationControllerCanEverAffectNav : public UPPHkNavRuntimeGen_NavMeshGenerationControllerBase
 {
 	GENERATED_BODY()
 

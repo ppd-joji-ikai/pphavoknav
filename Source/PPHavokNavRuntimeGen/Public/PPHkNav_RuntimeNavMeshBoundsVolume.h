@@ -1,4 +1,4 @@
-// Copyright (c) 2025 Pocketpair, Inc. All Rights Reserved.
+// Copyright Pocketpair, Inc. All Rights Reserved.
 
 #pragma once
 
@@ -20,7 +20,7 @@ struct FHavokNavNavMeshGeneratorResult;
  * ユーザーが明示的にRequestGeneration()を呼び出す必要がある
  */
 UCLASS(Blueprintable, hidecategories = (Advanced, Physics, Collision, Volume, Brush, Mover, Will, BlockAll, CanBeBaseForCharacter))
-class PPHKNAVRUNTIMEGEN_API APPHkNav_RuntimeNavMeshBoundsVolume : public AVolume
+class PPHAVOKNAVRUNTIMEGEN_API APPHkNav_RuntimeNavMeshBoundsVolume : public AVolume
 {
     GENERATED_BODY()
 

@@ -13,7 +13,7 @@ class UHavokNavNavMesh;
  * 事前ベイク済み UHavokNavNavMesh を保持するデータアセット
  */
 UCLASS()
-class PPHKNAVPATCH_API UPPHkNav_NavMeshDataAsset : public UPrimaryDataAsset
+class PPHAVOKNAVPATCH_API UPPHkNav_NavMeshDataAsset : public UPrimaryDataAsset
 {
 	GENERATED_BODY()
 

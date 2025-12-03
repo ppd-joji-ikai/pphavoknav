@@ -64,7 +64,7 @@ void FPPHkNavRuntimeGenEditorModule::ShutdownModule()
 #endif
 }
 
-IMPLEMENT_MODULE(FPPHkNavRuntimeGenEditorModule, PPHkNavRuntimeGenEditor)
+IMPLEMENT_MODULE(FPPHkNavRuntimeGenEditorModule, PPHavokNavRuntimeGenEditor)
 
 #if WITH_EDITOR
 void FPPHkNavRuntimeGenEditorModule::RegisterCommands()

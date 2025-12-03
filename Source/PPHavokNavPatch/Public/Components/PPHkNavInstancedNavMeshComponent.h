@@ -18,7 +18,7 @@ namespace PPHkNav::Private { struct FInstancedNavMeshComponentInternal; }
 
 /** インスタンス一意識別子。Index とは独立し RemoveAtSwap 後も安定 */
 USTRUCT(BlueprintType)
-struct PPHKNAVPATCH_API FPPHkNavInstancedNavMeshInstanceId
+struct PPHAVOKNAVPATCH_API FPPHkNavInstancedNavMeshInstanceId
 {
 	GENERATED_BODY()
 public:
@@ -36,7 +36,7 @@ public:
 
 /** 単一インスタンス記録 (内部管理用) */
 USTRUCT()
-struct PPHKNAVPATCH_API FPPHkNavInstancedNavMeshInstanceRecord
+struct PPHAVOKNAVPATCH_API FPPHkNavInstancedNavMeshInstanceRecord
 {
 	GENERATED_BODY()
 	/** 永続 Id */
@@ -58,7 +58,7 @@ struct PPHKNAVPATCH_API FPPHkNavInstancedNavMeshInstanceRecord
  * NavMesh の事前ベイク結果 (UPPHkNav_NavMeshDataAsset 経由) を大量インスタンス化し Transform のみを差異として保持するコンポーネント。
  */
 UCLASS(ClassGroup=(PPHkNav), meta=(BlueprintSpawnableComponent), BlueprintType)
-class PPHKNAVPATCH_API UPPHkNavInstancedNavMeshComponent : public USceneComponent
+class PPHAVOKNAVPATCH_API UPPHkNavInstancedNavMeshComponent : public USceneComponent
 {
 	GENERATED_BODY()
 public:

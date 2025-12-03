@@ -34,5 +34,5 @@ private:
 	TSharedPtr<FComponentVisualizer> Visualizer;
 };
 
-IMPLEMENT_MODULE(FPPHkNavPatchEditorModule, PPHkNavPatchEditor)
+IMPLEMENT_MODULE(FPPHkNavPatchEditorModule, PPHavokNavPatchEditor)
 

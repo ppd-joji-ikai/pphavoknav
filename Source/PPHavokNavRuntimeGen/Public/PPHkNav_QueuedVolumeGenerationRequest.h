@@ -19,7 +19,7 @@ class UHavokNavNavVolume;
  * UHavokNavNavVolumeGeneratorのライフサイクルを管理し、完了コールバックを処理します
  */
 UCLASS()
-class PPHKNAVRUNTIMEGEN_API UPPHkNav_QueuedVolumeGenerationRequest : public UObject, public IPPHkNav_QueuedRequest
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNav_QueuedVolumeGenerationRequest : public UObject, public IPPHkNav_QueuedRequest
 {
 	GENERATED_BODY()
 

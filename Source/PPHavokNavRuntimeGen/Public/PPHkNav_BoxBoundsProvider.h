@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Pocketpair, Inc. All Rights Reserved.
+// Copyright Pocketpair, Inc. All Rights Reserved.
 
 #pragma once
 
@@ -14,7 +14,7 @@ class UHavokNavNavMeshLayer;
  * 静的に定義されたボックスに基づいてNavMeshを生成するのに適しています
  */
 UCLASS()
-class PPHKNAVRUNTIMEGEN_API UPPHkNav_BoxBoundsProvider : public UObject, public IHavokNavNavMeshGenerationBoundsProvider
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNav_BoxBoundsProvider : public UObject, public IHavokNavNavMeshGenerationBoundsProvider
 {
     GENERATED_BODY()
 

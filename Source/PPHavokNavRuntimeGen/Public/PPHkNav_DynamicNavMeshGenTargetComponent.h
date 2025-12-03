@@ -20,7 +20,7 @@ class UHavokNavNavMeshInstanceSetComponent;
  * @see UPPHkNav_DynamicNavMeshSubsystem
  */
 UCLASS(ClassGroup=(MassPal), meta=(BlueprintSpawnableComponent))
-class PPHKNAVRUNTIMEGEN_API UPPHkNav_DynamicNavMeshGenTargetComponent : public USceneComponent
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNav_DynamicNavMeshGenTargetComponent : public USceneComponent
 {
 	GENERATED_BODY()
 

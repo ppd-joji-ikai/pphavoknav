@@ -8,7 +8,7 @@
 /**
  * 
  */
-class PPHKNAVRUNTIMEGENEDITOR_API FPPHkNavRuntimeGenEditorCommands : public TCommands<FPPHkNavRuntimeGenEditorCommands>
+class PPHAVOKNAVRUNTIMEGENEDITOR_API FPPHkNavRuntimeGenEditorCommands : public TCommands<FPPHkNavRuntimeGenEditorCommands>
 {
 public:
 	FPPHkNavRuntimeGenEditorCommands();

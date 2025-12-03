@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Pocketpair, Inc. All Rights Reserved.
+// Copyright Pocketpair, Inc. All Rights Reserved.
 
 #pragma once
 
@@ -22,7 +22,7 @@ class UHavokNavNavMeshGenerationSettings;
  * UHavokNavNavMeshGeneratorのライフサイクルを管理し、完了コールバックを処理します
  */
 UCLASS()
-class PPHKNAVRUNTIMEGEN_API UPPHkNav_QueuedGenerationRequest : public UObject, public IPPHkNav_QueuedRequest
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNav_QueuedGenerationRequest : public UObject, public IPPHkNav_QueuedRequest
 {
 	GENERATED_BODY()
 

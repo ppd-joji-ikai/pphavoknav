@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Pocketpair, Inc. All Rights Reserved.
+// Copyright Pocketpair, Inc. All Rights Reserved.
 
 #pragma once
 
@@ -18,7 +18,7 @@ class IHavokNavNavMeshConnectionsGenerator;
  * 生成リクエストのキューを管理し、優先度に基づいて順次処理します
  */
 UCLASS()
-class PPHKNAVRUNTIMEGEN_API UPPHkNav_RuntimeGenerationSubsystem : public UWorldSubsystem, public FTickableGameObject
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNav_RuntimeGenerationSubsystem : public UWorldSubsystem, public FTickableGameObject
 {
 	GENERATED_BODY()
 

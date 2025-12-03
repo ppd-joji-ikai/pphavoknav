@@ -15,7 +15,7 @@ class AStaticMeshActor;
  * 動的にスポーンしたStaticMeshやアクターを適切にBlockingSurfaceとして処理します
  */
 UCLASS(meta = (DisplayName = "PPHkNav NavVolume Generation Controller"))
-class PPHKNAVRUNTIMEGEN_API UPPHkNavRuntimeGen_NavVolumeGenerationController : public UObject, public IHavokNavNavVolumeGenerationController
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNavRuntimeGen_NavVolumeGenerationController : public UObject, public IHavokNavNavVolumeGenerationController
 {
 	GENERATED_BODY()
 

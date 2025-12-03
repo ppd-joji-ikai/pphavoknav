@@ -22,7 +22,7 @@ class UHavokNavNavMeshUserEdge;
  * 設定値に従い大きなエッジは複数の小さなセグメントに分割されることがある
  */
 UCLASS(EditInlineNew, DefaultToInstanced)
-class PPHKNAVPATCH_API UPPHkNavInstancedNavMeshUserEdgeGenerator : public UObject
+class PPHAVOKNAVPATCH_API UPPHkNavInstancedNavMeshUserEdgeGenerator : public UObject
 {
 	GENERATED_BODY()
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Pocketpair, Inc. All Rights Reserved.
+// Copyright Pocketpair, Inc. All Rights Reserved.
 
 #pragma once
 
@@ -17,7 +17,7 @@ struct FHavokNavNavMeshUserEdgeStaticInformationSet;
  * ランタイムNavMesh生成に最適化されています
  */
 UCLASS()
-class PPHKNAVRUNTIMEGEN_API UPPHkNav_BoundsInputEntityGatherer : public UObject, public IHavokNavNavMeshGenerationInputEntityGatherer
+class PPHAVOKNAVRUNTIMEGEN_API UPPHkNav_BoundsInputEntityGatherer : public UObject, public IHavokNavNavMeshGenerationInputEntityGatherer
 {
     GENERATED_BODY()
 
