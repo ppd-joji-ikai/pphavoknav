@@ -1,0 +1,49 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "PPHavokNav",
+	"Description": "Pocketpair Havok Navigation Extensions - Runtime generation and patch functionality",
+	"Category": "Navigation",
+	"CreatedBy": "Pocketpair, Inc.",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "PPHavokNavRuntimeGen",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "PPHavokNavRuntimeGenEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		},
+		{
+			"Name": "PPHavokNavPatch",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "PPHavokNavPatchEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "HavokCore",
+			"Enabled": true
+		},
+		{
+			"Name": "HavokNavigation",
+			"Enabled": true
+		}
+	],
+	"SupportURL": ""
+}
