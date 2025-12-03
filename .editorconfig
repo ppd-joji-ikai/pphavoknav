@@ -1,0 +1,89 @@
+root = true
+
+# Baseline
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = tab
+indent_size = 4
+tab_width = 4
+trim_trailing_whitespace = false
+max_line_length = 150
+cpp_indent_lambda_braces_when_parameter = true
+
+# ReSharper properties
+resharper_cpp_keep_user_linebreaks = true
+resharper_cpp_wrap_lines = true
+resharper_cpp_wrap_before_colon = true
+resharper_cpp_line_break_before_comma_in_member_initializer_lists = true
+
+# MSBuild
+[*.{csproj,proj,projitems,shproj,fsproj,target,props}]
+indent_style = space
+indent_size = 2
+
+# XML config files
+[*.{config,nuspec,resx,natvis}]
+indent_style = space
+indent_size = 2
+
+# Python files
+[*.py]
+indent_style = space
+indent_size = 4
+
+# YAML files
+[*.yaml]
+indent_style = space
+indent_size = 2
+
+# Settings for Verse source files
+[*.{verse,versetest}]
+indent_style = space
+indent_size = 4
+tab_width = 4
+max_line_length = off
+
+[{*.bash,*.sh,*.zsh}]
+indent_style = space
+indent_size = 2
+
+# Windows bat
+[*.bat]
+charset = utf-8
+indent_style = space
+indent_size = 4
+end_of_line = crlf
+
+# markdown
+[*.md]
+trim_trailing_whitespace = false
+
+# Unreal Engine ini
+[*.ini]
+charset = utf-8
+end_of_line = lf
+
+# Json format must be utf-8
+[{*.json,*.jsonc,*.postman_collection.json,*.postman_environment.json}]
+charset = utf-8
+
+[*.uplugin]
+indent_style = tab
+indent_size = tab
+tab_width = 4
+
+[*.uproject]
+indent_style = tab
+indent_size = tab
+tab_width = 4
+
+# c/cpp, cs
+[*.{c,c++,cc,cp,cpp,cs,cshtml,h,h++,hh,hp,hpp,hxx,inc,inl,xaml}]
+charset = utf-8-bom
+indent_style = tab
+indent_size = tab
+tab_width = 4
+
+# Copyright
+file_header_template =// Copyright Pocketpair, Inc. All Rights Reserved.
